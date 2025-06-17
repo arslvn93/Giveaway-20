@@ -1,115 +1,118 @@
 const config = {
   "modalQuestions": [
     {
-      "id": "agent_status",
-      "questionText": "Are you currently exploring homes with a real estate agent?",
+      "id": "community_events_attendance",
+      "questionText": "How often do you attend local sports events like baseball games?",
       "options": [
-        { "value": "committed", "text": "Yes, I'm committed to an agent." },
-        { "value": "not_committed", "text": "No, I'm not committed to an agent." },
-        { "value": "gathering_info", "text": "Just gathering information at this stage." }
+        { "value": "rarely", "text": "Rarely" },
+        { "value": "few_times_a_year", "text": "A few times a year" },
+        { "value": "monthly", "text": "Monthly" },
+        { "value": "weekly", "text": "Weekly" }
       ]
     },
     {
-      "id": "interest_level",
-      "questionText": "How interested are you in properties like this?",
+      "id": "leisure_preference",
+      "questionText": "When choosing leisure activities, which factors are most important to you?",
       "options": [
-        { "value": "very_interested", "text": "Very interested, actively looking." },
-        { "value": "somewhat_interested", "text": "Somewhat interested, keeping options open." },
-        { "value": "just_browsing", "text": "Just browsing for now." }
+        { "value": "proximity_to_home", "text": "Proximity to home" },
+        { "value": "community_involvement", "text": "Community involvement" },
+        { "value": "variety_experiences", "text": "Variety of experiences" },
+        { "value": "exclusivity", "text": "Exclusivity/unique offers" }
       ]
     },
     {
-      "id": "neighborhood_engagement",
-      "questionText": "How do you usually enjoy the neighborhood?",
+      "id": "community_engagement",
+      "questionText": "How do you typically stay informed about events and offers in your neighborhood?",
       "options": [
-        { "value": "resident_explorer", "text": "I live here and love exploring locally." },
-        { "value": "considering_move", "text": "I'm considering moving to this area." },
-        { "value": "just_visiting", "text": "Just visiting for the open house." }
+        { "value": "social_media", "text": "Social media" },
+        { "value": "direct_mail_flyers", "text": "Direct mail and flyers" },
+        { "value": "local_newsletters", "text": "Local newsletters/newspapers" },
+        { "value": "word_of_mouth", "text": "Word of mouth" }
       ]
     },
     {
-      "id": "feature_attraction",
-      "questionText": "What feature attracted you to this home?",
+      "id": "future_lifestyle",
+      "questionText": "Imagine you could design your ideal day around your favorite activity. What does that day look like?",
       "options": [
-        { "value": "design_layout", "text": "The design and layout." },
-        { "value": "location_neighborhood", "text": "The location and neighborhood." },
-        { "value": "home_price", "text": "The price of the home." }
+        { "value": "sports_events", "text": "Enjoying a full day of sports events" },
+        { "value": "community_cultural_activities", "text": "Attending a mix of community and cultural activities" },
+        { "value": "relaxation_home", "text": "A day of relaxation at home" },
+        { "value": "traveling_out_town", "text": "Traveling out of town for unique experiences" }
       ]
     }
   ],
- "giveaway": {
-    "name": "Burger Jabs Feast",
-    "heroHeadline": "Win a <span class='highlight'>$100 Burger Feast</span> at Burger Jabs!",
-    "heroSubheadline": "Enter for a chance to indulge in a $100 meal at Burger Jabs—where family, flavor, and community come together!",
-    "promotionDates": "Promotion runs from May 9, 2025 until June 9, 2025.",
-    "endDate": "2025-07-09T23:59:59",
-    "heroBackgroundImageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1990&q=80",
-    "heroCtaText": "Enter Now for a Feast!",
+  "giveaway": {
+    "name": "Blue Jays Ticket Giveaway",
+    "heroHeadline": "Win Jays Tickets During Canada Day!",
+    "heroSubheadline": "Experience Summer Fun with Our Special Giveaway",
+    "promotionDates": "Promotion runs from June 18, 2025 until July 2, 2025.",
+    "endDate": "2025-07-02T23:59:59",
+    "heroBackgroundImageUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/apvzhdr33drm80cqfggtyr4wp0.jpg",
+    "heroCtaText": "Enter Now for a Chance to Win!",
     "entryFormCtaText": "Count Me In!",
     "successModalHeaderText": "🎉 You're In! 🎉",
-    "successModalMainMessage": "Your entry for the <strong>Burger Jabs $100 Feast Giveaway</strong> has been successfully submitted. Best of luck!",
+    "successModalMainMessage": "Your entry for the <strong>Blue Jays Ticket Giveaway</strong> has been successfully submitted. Best of luck!",
     "successModalEmailPrompt": "We'll announce the winner via email after the draw date. Keep an eye on your inbox!"
   },
   "prize": {
-    "name": "Burger Jabs $100 Family Feast Voucher",
+    "name": "$100 Worth of Blue Jays Tickets",
     "value": "$100 Value",
-    "description": "Get ready to treat your family (or yourself!) to an unforgettable meal. You're entering for a chance to win a $100 gift voucher to enjoy juicy burgers, crispy fries, refreshing drinks, and more at Burger Jabs—the newest local hotspot that brings community and incredible flavor together under one roof.",
+    "description": "Join us this Canada Day for your chance to win tickets worth $100 to see the Blue Jays live! Whether you're a die-hard fan or just love a day out, these tickets offer an exciting summer memory to cherish.",
     "images": [
       {
-        "src": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80",
-        "alt": "Delicious Burger Combo"
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/fqdgw3a6mhrmc0cqfggrq5pz7w.jpg",
+        "alt": "Blue Jays Stadium View"
       },
       {
-        "src": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80",
-        "alt": "Another view of burgers"
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/jbx2wx46tnrmc0cqfggsdda1z4.jpg",
+        "alt": "Fans cheering at Blue Jays game"
       },
       {
-        "src": "https://images.unsplash.com/photo-1550317138-10000687a72b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-        "alt": "Fries and Burger"
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/v65yd1e82hrm80cqfggvn71tt0.jpg",
+        "alt": "Blue Jays tickets close up"
+      },
+      {
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/7zm0770a81rme0cqfgh89vs8cw.jpg",
+        "alt": "Baseball glove and ball"
       }
     ],
     "includedItems": [
-      { "icon": "fas fa-ticket-alt", "text": "Exclusive $100 gift voucher for anything on the menu" },
-      { "icon": "fas fa-users", "text": "Perfect for a family feast or a treat with friends" },
-      { "icon": "fas fa-store-alt", "text": "Support a fantastic local business: Burger Jabs" },
+      { "icon": "fas fa-ticket-alt", "text": "A $100 value ticket bundle for Jays games" },
+      { "icon": "fas fa-users", "text": "Great for a day out with friends or family" },
+      { "icon": "fas fa-baseball-ball", "text": "Experience live baseball excitement" },
       { "icon": "fas fa-check-circle", "text": "No purchase necessary to enter or win" },
       { "icon": "fas fa-bolt", "text": "Quick and easy online entry!" }
     ],
-    "limitedTimeOfferText": "🎁 Limited Time Giveaway!",
-    "ctaButtonText": "I WANT TO WIN THIS!"
+    "limitedTimeOfferText": "⚾ Limited Time Canada Day Giveaway!",
+    "ctaButtonText": "I WANT TO WIN!"
   },
-  "howToEnter": { //Do Not Change
-    "steps": [ //Do Not Change
+  "howToEnter": {
+    "steps": [
       {
-        "icon": "fas fa-keyboard",
-        "title": "Fill the Form",
-        "description": "Simply enter your name and email address in the form below. It takes less than 30 seconds!"//Do Not Change
-      },
-      {
-        "icon": "fas fa-share-alt",
-        "title": "Share (Optional)",
-        "description": "Spread the word on social media using the links after you enter. (Sharing is caring, but not required for entry!)" //Do Not Change
+        "icon": "fas fa-qrcode",
+        "title": "Scan and Win",
+        "description": "Use our QR code to sign up instantly."
       },
       {
         "icon": "fas fa-envelope-open-text",
-        "title": "Check Your Email",
-        "description": "We'll contact the winner via email. Make sure you enter a valid email address and check your spam folder too!" //Do Not Change
+        "title": "Check Your Inbox",
+        "description": "Our emails keep you updated on your entry status."
       }
     ],
     "highlights": [
       { "icon": "fas fa-stopwatch", "text": "Quick & Easy Entry" },
-      { "icon": "fas fa-gift", "text": "Amazing $100 Prize" },
+      { "icon": "fas fa-ticket-alt", "text": "$100 Ticket Prize" },
       { "icon": "fas fa-smile", "text": "Free to Enter!" }
     ]
   },
   "entryForm": {
-    "subtitle": "Provide your details below for a chance to win this delicious prize!",
-    "entryCountText": "Over 500+ entries already! Don't miss out!",
+    "subtitle": "Provide your details below for a chance to win Blue Jays tickets this summer!",
+    "entryCountText": "Join over 100+ fans already entered!",
     "socialSharePrompt": "Tell your friends about this awesome giveaway:",
     "sharePlatforms": {
       "facebook": "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(window.location.href),
-      "twitter": "https://twitter.com/intent/tweet?url=" + encodeURIComponent(window.location.href) + "&text=" + encodeURIComponent("Check out this amazing Burger Jabs giveaway!")
-    },
+      "twitter": "https://twitter.com/intent/tweet?url=" + encodeURIComponent(window.location.href) + "&text=" + encodeURIComponent("Win $100 worth of Blue Jays tickets this Canada Day! Enter now!")
+    }
   },
   "rules": {
     "fairSelectionInfo": {
@@ -118,68 +121,67 @@ const config = {
     },
     "importantNotice": {
       "title": "Winner Notification - Check Your Email!",
-      "text": "The lucky winner will be contacted exclusively via the email address provided during entry. Please ensure your email is correct. We recommend checking your inbox, promotions tab, and spam/junk folder regularly after the giveaway concludes."
+      "text": "The lucky winner will be contacted via email after July 2, 2025. Please check your inbox and spam folder regularly."
     },
     "faq": [
       {
         "q": "Who is eligible to enter?",
-        "a": "This giveaway is open to legal residents of [Your City/Region/Country] who are 18 years of age or older at the time of entry."
+        "a": "Open to legal residents of the area who are 18 years or older at the time of entry."
       },
       {
         "q": "How long does the giveaway run?",
-        "a": "The giveaway starts on May 9, 2025, and all entries must be received by June 9, 2025, at 11:59 PM [Your Timezone]."
+        "a": "The giveaway runs from June 18, 2025, through midnight on July 2, 2025."
       },
       {
         "q": "How will the winner be selected?",
-        "a": "One (1) winner will be selected in a random drawing from all eligible entries received during the promotion period."
+        "a": "One (1) winner will be chosen randomly from all eligible entries received within the promotion period."
       },
       {
         "q": "When and how will the winner be notified?",
-        "a": "The potential winner will be notified by email on or about June 12, 2025. They will have [e.g., 48 hours] to respond and claim their prize."
+        "a": "The winner will be notified by email shortly after July 2, 2025, with instructions to claim their prize."
       },
       {
         "q": "How many times can I enter?",
-        "a": "Limit one (1) entry per person/email address during the entire promotion period. Duplicate entries will be disqualified."
+        "a": "Limit one entry per person/email address during the entire promotion period. Duplicate entries will be disqualified."
       },
       {
         "q": "Is my information secure?",
-        "a": "We respect your privacy. Your information will be used solely for the purpose of this giveaway and in accordance with our Privacy Policy. We do not sell your data."
+        "a": "Your privacy is respected and information is used only for this giveaway per our Privacy Policy. We do not sell your data."
       }
     ],
     "tips": [
-      "Double-check your email address for typos before submitting.",
-      "Add our contact email (if provided in footer) to your address book to ensure you receive notifications.",
-      "Follow [Organizer Name] on social media for winner announcements (optional)."
+      "Double-check your email address before submitting.",
+      "Add shar@theskygroup.ca to your address book to ensure receipt of emails.",
+      "Follow The Sky Group on social media for updates and announcements."
     ]
   },
   "footerContact": {
-    "organizerName": "Burger Jabs Restaurant",
-    "organizerLogoUrl": "https://via.placeholder.com/200x60/FF7A00/4A3F35?text=Burger+Jabs",
-    "email": "hello@burgerjabs.com",
-    "phone": "(555) 123-BURGER",
-    "address": "123 Delicious Lane, Foodie Town, USA",
+    "organizerName": "The Sky Group",
+    "organizerLogoUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/8e0c10a0-da43-409c-b191-91135b7161ff/eed1f4ef-c781-4015-8092-dda5b2f860d9/68278639dbfc24a322fd422d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664E5726VF%2F20250617%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250617T042209Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCWhXFqJwzyQPm499RwYKVcZsQocJzM082Oov7VC5sumQIhAJOG0GhRVPyDBVl3%2BKzEtkEz1rAudDZIGbSJwM2RByMsKv8DCG0QABoMNjM3NDIzMTgzODA1IgyunFuozL%2B1yAwPeScq3ANqKDWzO3vZA7bXsbpwa0Y%2FJ4ExKpFyVtvr3ZecbDX2a64mDvpfWj5p1QIqgflMM%2FGLI4AGpg8vufnweqRCcCE5LUavaUOPUKC9d4jwgdCtyJSmk%2Fe5PXejIiXQG3CiL6syg1BT8n4hyxJW9NwXgX8Ve2DdgeqLuRPBT0rHpzu8JLlau4mHfhDQkgZzT9zdAMatHszbzk1iG0FLZwKMwpsGg0g8gG%2FOX1hOau3w6AIIbU1PVkoLdxLWNyZ1ek6v8kMzo9U%2FxZd3DoafGMH5DJEX8GtvlxE666OEPu5I6UteMXviLouvLo34HTkabqQQf1Z0mzzCReJ79kk95W2mg7SmiXghRiJAeH1%2Bdv5kCC69wiP20C%2BNh9g%2Fk24Gh%2B4FCuK9tg5xOrWJaHdcESwY%2BgQNidxDzmpydqd4steH30euJc1r6NxGT1F%2FVbIehjOEjT4DBU7mIqnAIIoQNRvohLwo3IY%2BkMHXvsBKUP%2F8mJL4b2Tl67zISAFSogaDbVMxWeREjAbjgZwZyIBI5wclzAm%2BcIWJ%2FXjBTJROeuyUc5lpnr3erVfbog9qp6i%2BF9GHU7dG556YfiGGJFZaC32ltUJQaL44bt42zhxAY3S7092FPyfZ75f1JczdU5nPqzClwcPCBjqkAW1qlEr7QxyR%2BJ4A%2FuzROhX45v176x2WKi6mNr4UpqIqkAp0mE0GAaRTbREU1Ms5inrcGW7Vg0NbVdDSPLKwsRhMx3sVPvcZ6%2Fe9AiT4B3PBiWCkoenyXK3C0chAsgPq1ssO4DC72E9OnFu4Gq9k7i1TRYbiAnXsad6jKVZ1Dn2DOvauVvqbjSFagYqmJR2ZRgI%2BRDiBdIIhnPZEdCRppQA3WRFe&X-Amz-Signature=4d66200e44f471a90af1d3f5d336b74e8759b38d1b4e03d9b803abd76c284565&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+    "email": "shar@theskygroup.ca",
+    "phone": "1 647 887 4996",
+    "address": "36 Distillery Lane Unit 500 Toronto M5A3C4",
     "social": {
-      "facebook": "",
-      "instagram": ""
+      "facebook": "https://www.facebook.com/theskygroupre",
+      "instagram": "https://www.instagram.com/theskygroup_re"
     },
-    "copyrightOwner": "Burger Jabs Co."
+    "copyrightOwner": "The Sky Group"
   },
   "meta": {
-    "pageTitle": "Burger Jabs $100 Feast Giveaway!",
-    "navBrandLogoText": "Burger Jabs",
-    "privacyPolicyLink": "",
+    "pageTitle": "Win Blue Jays Tickets This Canada Day!",
+    "navBrandLogoText": "The Sky Group",
+    "privacyPolicyLink": "https://www.mls.theskygroup.ca/privacy-policy"
   },
   "settings": {
     "ghlWebhookUrl": "",
     "theme": "dark",
-    "confettiColors": ["#FF7A00", "#FFC107", "#4CAF50", "#FFFFFF", "#FFF5E6"],
+    "confettiColors": ["#004C97", "#E31937", "#FFFFFF"],
     "showCountdownInHero": true
   },
   "deploymentInfo": {
-    "repoName": "openhouse",
-    "repoUrl": "https://github.com/arslvn93/openhouse",
-    "tag": "Open House 168 Abbey",
-    "netlifyUrl": "https://openhousetester.netlify.app/",
-    "netlifyId": "547dc1ef-2c83-4d08-815f-344d40fc3ca2"
+    "repoName": "Giveaway-20",
+    "repoUrl": "https://github.com/arslvn93/Giveaway-20",
+    "netlifyUrl": "http://Giveaway-20.netlify.app",
+    "netlifyId": "1003384477"
   }
 };
